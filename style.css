@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@400;700&family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@400;700&family=Raleway:wght@400;900&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+button {
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+header {
+    display: flex;
+    gap: 90px;
+    padding: 50px 240px 0px 240px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.shoping-flower h2 {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.shoping-flower p {
+    margin: 32px 0px;
+}
+
+main {}
+
+
+.feature {
+    margin: 120px 300px;
+}
+
+.featured-img a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.featured-img {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.featured-img img {
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: lightgray;
+}
+
+.sell {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin: 120px 0px;
+    padding: 50px 300px;
+}
+
+h2 {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+p {
+    color: rgba(39, 39, 39, 0.60);
+    max-width: 600px;
+    text-align: center;
+    margin: 24px auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.sell button {}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram {}
+
+.img {
+    margin: 40px 200px 120px 200px;
+}
+
+.img img {
+    width: 320px;
+    padding: 0px 10px;
+}
+
+.latest-deals {
+    margin: 128px 240px;
+    background-image: url("Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    padding: 120px 0px;
+    text-align: center;
+
+}
+
+.latest-deals h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.latest-deals p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 45px;
+    padding-top: 20px;
+}
+
+.latest-deals input {
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    border: none;
+}
+.popular-img img{
+    width: 400px;
+}
+
+/* footer style */
+footer {
+    background: #111010;
+    padding: 140px 0px;
+}
+
+footer h2 {
+    color: #E55473;
+    font-size: 48px;
+    padding-bottom: 24px;
+    text-align: center;
+    font-weight: 800;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.90);
+    margin: 0 auto;
+    max-width: 600px;
+    /* padding-bottom: 32px; */
+    text-align: center;
+}
+
+footer #footer-address {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+}
